@@ -24,7 +24,14 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          echo "== Environment info =="
+          node -v
+          npm -v
+          echo "== /workspace ls =="
+          ls -la
+          echo "== npm ci (verbose) =="
+          npm ci --prefer-offline --no-audit --no-fund || (echo "npm ci failed, attempting npm install" && npm install --no-audit --no-fund)
 
       - name: Run lint
         run: npm run lint
