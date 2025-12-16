@@ -4,6 +4,9 @@ CI workflow badge:
 
 [![CI](https://github.com/Keltpkr/spotify-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Keltpkr/spotify-api/actions/workflows/ci.yml)
 
+[![Coverage](https://img.shields.io/codecov/c/gh/Keltpkr/spotify-api/main.svg?logo=codecov)](https://codecov.io/gh/Keltpkr/spotify-api)
+[![npm version](https://img.shields.io/npm/v/spotify-client.svg?logo=npm)](https://www.npmjs.com/package/spotify-client)
+
 Quick commands
 
 ```bash
