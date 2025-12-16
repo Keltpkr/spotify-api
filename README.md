@@ -1,8 +1,8 @@
 # spotify-client
 
-CI workflow badge (replace `<OWNER>` and `<REPO>` with your values):
+CI workflow badge:
 
-![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/Keltpkr/spotify-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Keltpkr/spotify-api/actions/workflows/ci.yml)
 
 Quick commands
 
